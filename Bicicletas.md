@@ -177,3 +177,193 @@ Precio: $ 58.300
     
  Link: https://www.bertolinabikes.com.ar/productos/bicicleta-spy-ridder-rodado-26-21-velocidades-frenos-a-disco/?variant=375081783
  _____________________________
+
+Bicicleta: RUTA
+
+Imagen: bicicletaRodado28VenzoPhoenix1.jpeg
+
+Descripcion: BICICLETA RUTA RODADO 28 VENZO PHOENIX
+
+Precio: $ 132.200
+
+  Especificaciones:
+    Marca: Venzo.
+    Modelo: Phoenix Pro 700c 2021.
+    Rodado: 28"
+    Cuadro: Aluminio.
+    Pata de cambio: De 16 velocidades.
+    Frenos: Herradura
+    Horquillas de suspension: Rígida.
+    
+ Link: https://www.bertolinabikes.com.ar/productos/bicicleta-de-ruta-venzo-phoenix-rodado-28-shimano-claris-2x8/?variant=421983918
+ _____________________________
+
+ Imagen: bicicletaRodado28VenzoEtna1.jpeg
+
+Descripcion: BICICLETA RUTA RODADO 28 VENZO ETNA
+
+Precio: $ 339.000
+
+  Especificaciones:
+    Marca: Venzo.
+    Modelo: Etna monocasco.
+    Rodado: 28"
+    Cuadro: Carbono.
+    Pata de cambio: De 20 velocidades.
+    Frenos: Herradura Shimano.
+    Horquillas de suspension: Rígida de Carbono.
+    
+ Link: https://www.bertolinabikes.com.ar/productos/bicicleta-de-ruta-venzo-etna-cuadro-de-carbono-tiagra-2x10/
+ _____________________________
+
+ Imagen: bicicletaRodado28TopmegaHarrier1.jpeg
+
+Descripcion: BICICLETA RUTA RODADO 28 TOPMEGA HARRIER
+
+Precio: $ 125.300
+
+  Especificaciones:
+    Marca: Topmega.
+    Modelo: Harrier.
+    Rodado: 28"
+    Cuadro: Aluminio.
+    Pata de cambio: De 16 velocidades.
+    Frenos: Herradura Shimano Claris.
+    Horquillas de suspension: Rígida.
+    Cubiertas: Arisun 700*23 Vitesse.
+    
+ Link: https://www.bertolinabikes.com.ar/productos/bicicleta-de-ruta-r28-topmega-harrier-2x8v-shimano-claris/
+ _____________________________
+
+ Imagen: bicicletaRodado28CannondaleSupersix1.jpg
+
+Descripcion: BICICLETA RUTA RODADO 28 CANNONDALE SUPERSIX
+
+Precio: $ 626.481
+
+  Especificaciones:
+    Marca: Cannondale.
+    Modelo: Supersix evo 2020.
+    Rodado: 28"
+    Cuadro: Carbono.
+    Pata de cambio: De 11 velocidades.
+    Frenos: Herradura Shimano 105.
+    Horquillas de suspension: Cannondale BallisTec Carbono.
+    Cubiertas: Vittoria Zaffiro Pro Slick 700*25.
+    
+ Link: http://www.runnerbike.com.ar/DetalleProductoView.aspx?id=131
+ _____________________________
+
+ Imagen: bicicletaRodado28SpecializedTarmac1.jpg
+
+Descripcion: BICICLETA RUTA RODADO 28 SPECIALIZED TARMAC
+
+Precio: $ 2.148.243
+
+  Especificaciones:
+    Marca: Specialized.
+    Modelo: Tarmac Disc Pro 2020.
+    Rodado: 28"
+    Cuadro: Carbono.
+    Pata de cambio: De 12 velocidades.
+    Frenos: Disco hidraúlico SRAM Force eTAP.
+    Horquillas de suspension: FACT carbono.
+    Cubiertas: S-Works Turbo.
+    
+ Link: http://www.runnerbike.com.ar/DetalleProductoView.aspx?id=151
+ _____________________________
+ 
+ Imagen: bicicletaRodado28SpecializedTarmacSL1.jpg
+
+Descripcion: BICICLETA RUTA RODADO 28 SPECIALIZED TARMAC SL7
+
+Precio: $ 3.010.573
+
+  Especificaciones:
+    Marca: Specialized.
+    Modelo: Tarmac S-Works SL7.
+    Rodado: 28"
+    Cuadro: Carbono.
+    Pata de cambio: De 12 velocidades.
+    Frenos: Disco hidraúlico SRAM Red eTAP.
+    Horquillas de suspension: S-Works FACT carbono.
+    Cubiertas: Turbo cotton 700*26.
+    
+ Link: http://www.runnerbike.com.ar/DetalleProductoView.aspx?id=377
+ _____________________________
+  
+ Imagen: bicicletaRodado28KTMRevelator1.jpg
+
+Descripcion: BICICLETA RUTA RODADO 28 KTM REVELATOR 
+
+Precio: $ 596.136
+
+  Especificaciones:
+    Marca: KTM.
+    Modelo: Revelator Alto SE3.
+    Rodado: 28"
+    Cuadro: Carbono.
+    Pata de cambio: De 11 velocidades.
+    Frenos: Herradura Shimano 105.
+    Horquillas de suspension: 700cc Full Carbono.
+    Cubiertas: Continental Grand Prix.
+    
+ Link: http://www.runnerbike.com.ar/DetalleProductoView.aspx?id=741
+ _____________________________
+   
+ Imagen: bicicletaRodado28MeridaScultura1.jpg
+
+Descripcion: BICICLETA RUTA RODADO 28 MERIDA SCULTURA 
+
+Precio: $ 336.115
+
+  Especificaciones:
+    Marca: Merida.
+    Modelo: Scultura 300 Rim 2021.
+    Rodado: 28"
+    Cuadro: Aluminio.
+    Pata de cambio: De 20 velocidades.
+    Frenos: Shimano Tiagra.
+    Horquillas de suspension: Scultura CF2 disc.
+    Cubiertas: Maxxis Pursuer 700*25.
+    
+ Link: http://www.runnerbike.com.ar/DetalleProductoView.aspx?id=841
+ _____________________________
+    
+ Imagen: bicicletaRodado28RaleighStrada1.jpg
+
+Descripcion: BICICLETA RUTA RODADO 28 RALEIGH STRADA  
+
+Precio: $ 169.984
+
+  Especificaciones:
+    Marca: Raleigh.
+    Modelo: Strada 1.0.
+    Rodado: 28"
+    Cuadro: Aluminio.
+    Pata de cambio: De 16 velocidades.
+    Frenos: Shimano Claris.
+    Horquillas de suspension: Raleigh 700c Full carbono.
+    Cubiertas: Continental Ultra Sport 700*23.
+    
+ Link: https://www.estacionbike.com.ar/productos/raleigh-strada-1-0/?variant=410197980
+ _____________________________
+     
+ Imagen: bicicletaRodado28PoligonStrattos1.jpg
+
+Descripcion: BICICLETA RUTA RODADO 28 POLYGON STRATTOS  
+
+Precio: $ 693.919
+
+  Especificaciones:
+    Marca: Polygon.
+    Modelo: Strattos S8.
+    Rodado: 28"
+    Cuadro: Carbono.
+    Pata de cambio: De 22 velocidades.
+    Frenos: Shimano Ultegra BR-R8000.
+    Horquillas de suspension: ACX Carbonperformance Road.
+    Cubiertas: Entity Tubeless Ready.
+    
+ Link: https://www.estacionbike.com.ar/productos/polygon-strattos-s8-disc-shimano-ultegra-22v/
+ _____________________________
