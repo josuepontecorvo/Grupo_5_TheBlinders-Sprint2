@@ -367,3 +367,194 @@ Precio: $ 693.919
     
  Link: https://www.estacionbike.com.ar/productos/polygon-strattos-s8-disc-shimano-ultegra-22v/
  _____________________________
+
+ Accesorios: CASCOS
+
+ Imagen: cascoBbbMountainBike1.jpg
+
+ Descripcion: CASCO BBB KITE BHE-29 MTB
+
+ Precio: $ 12.614
+
+ Especificaciones:
+ Marca: BBB.
+ Modelo: Kite BHE-29.
+ Talle: S, M, L.
+ Material: Poliestireno + Policarbonato.
+ Ventilaciones: 14.
+ Color: Negro, Azul, Amarillo, Blanco.
+ 
+ Link: https://www.nodari.com.ar/product-bbb-kite-1901231714041523.h
+ ____________________________________________
+ 
+Imagen: cascoLazerCompact1.jpg
+
+Descripcion: CASCO BICICLETA LAZER COMPACT IN MOLD CON VISERA
+
+Precio: $8.190.
+
+Especificaciones:
+Marca: Lazer.
+Modelo: Compact In-Mold con visera.
+Talle: Único (54-61 cm).
+Material: EPS.
+Ventilaciones: 20.
+Color: Negro, Azul, Rojo.
+
+Link: https://www.bertolinabikes.com.ar/productos/casco-bicicleta-lazer-compact-in-mold-con-visera/?variant=412503075
+________________________________________
+
+Imagen: cascoUrbanoRutaBellAvenue.jpg
+
+Descripcion: CASCO URBANO/RUTA BELL AVENUE MIPS
+
+Precio: $16.333
+
+Especificaciones:
+Marca: Bell.
+Modelo: Avenue MIPS.
+Talle: Único (54-61 cm).
+Material: EPS.
+Ventilaciones: 18.
+Color: Negro.
+
+Link: https://www.nodari.com.ar/product-bell-avenue-mips-2201041427122109.h#
+_____________________________
+
+Accesorios: HERRAMIENTAS
+
+Imagen: cajaDeHerramientasSuperB.jpg
+
+Descripcion: CAJA DE HERRAMIENTAS SUPER B TBA500 27 PIEZAS
+
+Precio: $19.720
+
+Especificaciones:
+Marca: Super B.
+Modelo: TBA500 27 PIEZAS.
+Características: 
+-Llave de pedal de 15 mm.
+-2 Destornilladores, tamaño: Phillips 2 y Plano 6.
+-Llave hexagonal de 1-8 mm y adaptador de 1/2’.
+-3 Palanca saca cubierta.
+-Extractor de caja pedalera para eje cuadrado y octalink
+-Juego de llaves allen 2 / 2,5 / 3 / 4 / 5 / 6 mm.
+-Desarmacadenas para 8, 9 10 y 11 velocidades.
+-Llave doble para 8 / 10 mm.
+-Extractor de piñon / discos centerlock .
+-Llave de cadena para extraer piñon
+-Llaves de conos de 13 / 14mm y 15 / 16mm
+-Herramienta para ajustar tapa de palancas Shimano con sistema Hollowtech
+-Extractor de caja pedalera Hollowtech II de 34.7mm
+-Llave estira rayos para distintas medidas
+-Extractor de palancas.
+-Kit de reparación de parches autoadhesivos.
+-Llave Torx 25.
+
+Link: http://www.runnerbike.com.ar/DetalleProductoView.aspx?id=517
+_____________________________
+
+Imagen: sacaPedalesRaleigh15mm.png
+
+Descripcion: SACA PEDALES RALEIGH 15mm
+
+Precio: $2.382
+
+Especificaciones:
+Marca: Raleigh.
+Modelo: Saca pedales 15mm.
+Características:
+-Realizado en acero muy resistente.
+-Mango de goma antideslizante.
+-Su ángulo y su tamaño de palanca la hacen muy cómoda.
+
+Link: http://www.runnerbike.com.ar/DetalleProductoView.aspx?id=1273
+____________________________
+
+Accesorios: VARIOS
+
+Imagen: luzTraseraVanHalen.jpg
+
+Descripcion: LUZ TRASERA VAN HALEN VAN040 120 LM AUTOMATICA
+
+Precio: $3.570
+
+Especificaciones: 
+Marca: Van Halen.
+Modelo: VAN040.
+Color: Negro.
+Posición: Trasera.
+Color del LED: Rojo.
+Duración: 2 a 4 hs (Dependiendo el modo).
+
+Link: http://www.runnerbike.com.ar/DetalleProductoView.aspx?id=21
+______________________________
+
+Imagen: portaCaramañolaSpecializedCascade.jpg
+
+Descripcion: PORTACARAMAÑOLA SPECIALIZED CASCADE CAGE II
+
+Precio: $2.614
+
+Especificaciones:
+Marca: Specialized.
+Modelo: Cascade Cage II.
+Color: Negro.
+Peso: 50g.
+
+Link: http://www.runnerbike.com.ar/DetalleProductoView.aspx?id=73
+_____________________________
+
+Imagen: pedalesRutaShimano.jpg
+
+Descripcion: PEDALES AUTOMATICOS RUTA SHIMANO PD-R550
+
+Precio: $18.994
+
+Especificaciones:
+Marca: Shimano.
+Modelo: PD-R550.
+Color: Negro.
+Peso: 310g.
+Material: Aluminio, Nylon.
+Tipo de pedales: Automáticos Ruta.
+Largo: 16.51 cm.
+Ancho: 15.24 cm.
+Altura: 5 cm.
+
+Link: https://www.nodari.com.ar/product-shimano-pd-r550-1901231639466538.h#
+_______________________________
+
+Imagen: lentesCiclismoSpeedtrap.jpg
+
+Descripcion: LENTES ANTEOJO DE CICLISMO 100% SPEEDTRAP ORIGINALES
+
+Precio: $39.480
+
+Especificaciones:
+Marca: Speedtrap.
+Modelo: 100%
+Color: Arena c/ lentes humo, Gris c/ lentes humo, Banana c/ lentes negros.
+Características: 
+-Incluye Repuesto Posa Nariz.
+-Incluye Placa transparente.
+-Filtro UV.
+
+Link: https://www.bertolinabikes.com.ar/productos/lentes-anteojo-de-ciclismo-100-speedtrap-originales/
+______________________________
+
+Imagen: jerseyMangaCortaGtRace.jpg
+
+Descripcion: JERSEY MANGA CORTA GT RACE
+
+Precio: $3.941
+
+Especificaciones:
+Marca: GT Race.
+Modelo: 2015.
+Color: Azul.
+Talle: M, L.
+Material: Poliester.
+
+Link: https://www.nodari.com.ar/product-gt-bicycles-race-1901231557093068.h#
+______________________________
