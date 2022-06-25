@@ -1,4 +1,352 @@
-h1 {
-    color:red;
-    font-size: 50px;
+/*BODY*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+/*HEADER*/
+.top-header {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 8px;
+}
+
+.search-bar {
+    order: 1;
+}
+    /*LOGO*/
+
+.logo {
+    width: 30vw;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.top-navbar {
+    display: none;
+}
+
+.sign-in {
+    display:none;
+}
+
+.down-navbar {
+    display: none;
+}
+
+div.burger-menu {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto 5px;
+    text-align: center;
+    background-color: lightgrey;
+    border-radius: 20%;
+}
+
+div.burger-menu i {
+    font-size: 20px;
+    padding: 5px;
+}
+/*MAIN*/
+    /*BANNER*/
+
+.container-slider {
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    padding: 0px;
+    display: flex;
+    width: 200%;
+    animation: slide 10s infinite alternate;
+    animation-timing-function: ease-in;
+    height: 100%;
+}
+
+.slider-section {
+    width: 100%;
+    height: 100%;
+}
+
+.slider-images {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+    45% {
+        margin-left: 0;
+    }
+    55% {
+        margin-left: -100%;
+    }
+    100% {
+        margin-left: -100%;
+    }
+    
+}
+
+.slider-button {
+    font-size:20px;
+    color:rgba(213, 38, 38, 0.7);
+}
+
+.slider-button:hover {
+    color: rgba(213, 38, 38, 1);
+}
+
+.slider-right-button {
+    position: absolute;
+    top: 40%;
+    right: 5%; 
+}
+
+.slider-left-button {
+    position: absolute;
+    top: 40%;
+    left: 5%; 
+}
+    /*DESTACADOS*/
+
+.destacados h2 {
+    text-align: center;
+    margin: 5px auto;
+    border-bottom: 1px solid grey;
+}
+
+main .destacados article {
+    width: 90vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main .destacados article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+main .destacados article img {
+    width: 100%;
+}
+
+main .destacados article h3 {
+    font-size: 15px;
+}
+
+main .destacados-products-price {
+    color: red;
+}
+
+main .destacados-products-cart {
+    font-size: 12px;
+}
+
+main .destacados-products-cart i {
+    color: green;
+}
+
+/*FOOTER*/
+
+footer {
+    border-top: 1px solid black;
+    margin: 10px 0;
+}
+
+.top-footer {
+    background-color: darkgrey;
+    color:white;
+    padding: 10px;
+}
+
+.bottom-footer {
+    border-top: 1px solid grey;
+    margin: 10px;
+}
+
+.top-footer-section-bicimundo, .top-footer-section-links, .top-footer-section-cuenta {
+    display: none;
+}
+
+.top-footer-section-contacto {
+    text-align: center;
+}
+
+.top-footer h4 {
+    color:black;
+}
+
+.top-footer-section-contacto ul {
+    margin-top: 5px;
+}
+
+.top-footer li {
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.top-footer li i {
+    margin-right: 3px;
+    color:black;
+}
+
+.copyright-1 {
+    font-size: 14px;
+}
+
+.copyright-2 {
+    color: rgb(45, 136, 226);
+    font-size: 12px;
+}
+
+.copyright-3 {
+    font-size: 12px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 481px) {
+
+    .sign-in {
+        display:block;
+        order: 2;
+        text-align: center;
+        font-size: 25px;
+        margin-right: 15px;
+    }
+
+    .search-bar {
+        width:50%;
+        text-align: right;
+    }
+
+    .search-bar input {
+        width: 80%
+    }
+
+    div.burger-menu {
+        display:none;
+    }
+    
+    .down-navbar {
+        display: block;
+    }
+
+    .down-navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+
+    .down-navbar li a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+
+    .down-navbar li a:hover {
+        font-weight: bold;
+    }
+
+    main .destacados-products {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .destacados-products article {
+        width: 50%;
+    }
+
+    main .destacados article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 45%;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 960px) {
+
+    .sign-in {
+        display:none;
+    }
+    
+    .top-navbar {
+        display: block;
+        width: 30%;
+    }
+
+    .top-navbar ul {
+        display:flex;
+        justify-content: flex-end;
+        list-style-type: none;
+    }
+
+    .top-navbar li a {
+        text-decoration: none;
+        color: black;
+        margin: 0 10px;
+    }
+    
+    .search-bar {
+        order:0;
+        width: 30%;
+        text-align: left;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    main .destacados-products article {
+        width: 25%;
+    }
+
+    main .destacados article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 22%;
+        padding: 5px;
+    }
+
+    .top-footer-section-bicimundo, .top-footer-section-links, .top-footer-section-cuenta {
+        display: block;
+    }
+
+    .top-footer {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+
+    .top-footer a {
+        text-decoration: none;
+        color:white;
+    }
+
+    .top-footer h4 {
+        border-bottom: 1px dotted black;
+    }
+
+    .top-footer-section-contacto {
+        text-align: left;
+    }
+}
+

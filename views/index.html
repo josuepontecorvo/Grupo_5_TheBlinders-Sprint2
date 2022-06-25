@@ -5,16 +5,146 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/85f57872c4.js" crossorigin="anonymous"></script>
     <title>BiciMundo-Home</title>
 </head>
 <body>
     <header>
-        <div>
-            <figure>
-                <img src="/images/logo.png" alt="logo-BiciMundo">
+        <div class="top-header">
+            <form class="search-bar">
+                <button type="submit" class="search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <input type="text" class="search-input" placeholder="Buscar bicicletas y accesorios.">
+            </form>
+            <figure class="logo">
+                <img src="/images/logo2.jpeg" alt="logo-bicimundo">
             </figure>
-            <h1>Welcome</h1>
+            <nav class="top-navbar">
+                <ul>
+                    <li><a href="#">Crear Cuenta</a></li>
+                    <li><a href="#">Iniciar Sesión</a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </nav>
+            <div class="sign-in">
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+        </div>
+        <div class="down-header">
+            <nav class="down-navbar">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PRODUCTOS</a></li>
+                    <li><a href="#">QUIENES SOMOS</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                    <li><a href="#">AYUDA</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="burger-menu">
+            <i class="fa-solid fa-bars"></i>
         </div>
     </header>
+    <main>
+        <div class="container-slider">
+            <div class="slider">
+                <div class="slider-section"><img class="slider-images" src="/images/slider-1.jpg" alt="slider-1"></div>
+                <div class="slider-section"><img class="slider-images" src="/images/slider-2.jpg" alt="slider-2"></div>
+            </div>
+            <span class="slider-button slider-left-button"><i class="fa-solid fa-circle-arrow-left"></i></span>
+            <span class="slider-button slider-right-button"><i class="fa-solid fa-circle-arrow-right"></i></span>
+        </div>
+        <section class="destacados">
+            <h2 class="destacados-title">DESTACADOS</h2>
+            <div class="destacados-products">
+                <article>
+                    <figure>
+                        <img src="/images/bicicletaRodado26meridaMattsLite1.jpg" alt="image-destacados">
+                    </figure>
+                    <h3 class="destacados-products-model">BICICLETA MTB RODADO 26 MERIDA MATTS LITE</h3>
+                    <p class="destacados-products-price">$ 180.165</p>
+                    <p class="destacados-products-cart">
+                        Agregar al carrito
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="/images/bicicletaRodado26olmoFlash265disc1.jpg" alt="image-destacados">
+                    </figure>
+                    <h3 class="destacados-products-model">BICICLETA MTB RODADO 26 OLMO FLASH 265 DISC</h3>
+                    <p class="destacados-products-price">$ 66.066</p>
+                    <p class="destacados-products-cart">
+                        Agregar al carrito 
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="/images/bicicletaRodado28TopmegaHarrier1.jpeg" alt="image-destacados">
+                    </figure>
+                    <h3 class="destacados-products-model">BICICLETA RUTA RODADO 28 TOPMEGA HARRIER</h3>
+                    <p class="destacados-products-price">$ 125.300</p>
+                    <p class="destacados-products-cart">
+                        Agregar al carrito 
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="/images/cascoLazerCompact1.jpg" alt="image-destacados">
+                    </figure>
+                    <h3 class="destacados-products-model">CASCO BICICLETA LAZER COMPACT IN MOLD CON VISERA</h3>
+                    <p class="destacados-products-price"> $ 8.190</p>
+                    <p class="destacados-products-cart">
+                        Agregar al carrito 
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="top-footer">
+            <section class="top-footer-section-bicimundo">
+                <h4>BiciMundo</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </section>
+            <section class="top-footer-section-links">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </section>
+            <section class="top-footer-section-cuenta">
+                <h4>Cuenta</h4>
+                <ul>
+                    <li><a href="#">Crear Cuenta</a></li>
+                    <li><a href="#">Iniciar Sesión</a></li>
+                </ul>
+            </section>
+            <section class="top-footer-section-contacto">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i>4982-1111 / 4982-2222</li>
+                    <li><i class="fa-solid fa-comment-sms"></i>+5491156781234</li>
+                    <li><i class="fa-regular fa-envelope"></i>ventas@bicimundo.com</li>
+                    <li><i class="fa-solid fa-location-pin"></i>Av. Central 123, CABA, BA, Argentina</li>
+                    <li><i class="fa-regular fa-clock"></i>10hs a 18hs</li>
+                </ul>
+            </section>
+        </div>
+        <div class="bottom-footer">
+            <p class="copyright-1">Made by <strong>The blinders</strong> Argentina 2020</p> 
+            <p class="copyright-2"><i class="fa-regular fa-copyright"></i>Todos los derechos reservados</p>
+            <p class="copyright-3">Las fotos son a modo ilustrativo. La venta de cualquiera de los productos publicados está sujeta a la verificación de stock.</p>
+        </div>
+    </footer>
 </body>
 </html>
