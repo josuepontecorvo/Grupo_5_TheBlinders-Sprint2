@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN */
+    /*FORM*/
+    
+div.register h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px;
+    font-size: 20px;   
+    font-weight: normal; 
+    font-style: italic;
+}
+
+div.register form {
+    border: 3px solid black;
+    width: 320px;
+    margin: auto;
+}
+
+main form .user-image {
+    text-align: center;;
+}
+
+main form .user-image i {
+    font-size: 100px;
+}
+
+main form .fill-form input {
+    width: 100%;
+    background-color: lightgrey;
+    height: 25px;
+    padding-left: 10px;
+}
+
+main form input:focus {
+    color: green;
+    box-shadow: 0px 0px 10px rgb(48, 190, 233);
+}
+
+main form div {
+    margin: 10px;
+}
+
+main form div label {
+    display: block;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+main form div span {
+    margin: 5px;
+    display: block;
+    color:red;
+}
+
+main form .submit-form {
+    text-align: right;
+}
+
+main form .submit-form button {
+    font-size: 18px;
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 6%;
+}
+
+    /*MEDIA QUERY*/
+
+@media (min-width: 960px) {
+    
+    div.register form {
+        width: 750px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        height: 620px;
+        justify-content: space-between;
+    }
+
+    div.fill-form {
+        width: 320px;
+        height: 100%;
+    }
+
+    div.user-image {
+        order:1;
+        width: 50%;
+        padding-top: 30px;
+    }
+
+    div.submit-form {
+        order: 3;
+        padding: 30px;
+    }
+
+}

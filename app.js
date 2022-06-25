@@ -5,5 +5,6 @@ const port = 3000;
 
 app.use(express.static(path.resolve(__dirname, './public')));
 
-app.get('/', (req, res) => res.sendFile(path.resolve(__dirname,"./views/index.html")))
-app.listen(port, () => console.log(`Listening on port ${port}!`))
+app.get('/', (req, res) => res.sendFile(path.resolve(__dirname,"./views/index.html")));
+app.get('/register', (req, res) => res.sendFile(path.resolve(__dirname,"./views/register.html")));
+app.listen(port, () => console.log(`Listening on port ${port}!`));

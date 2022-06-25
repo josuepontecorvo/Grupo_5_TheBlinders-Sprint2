@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/85f57872c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/register-style.css" type="text/css">
+    <title>Register</title>
+</head>
+<body>
+    <main>
+        <div class="register">
+            <h2>CREA TU CUENTA</h2>
+            <form action="/register" method="POST" class="register-form">
+                <div class="user-image">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <label for="user-image">Carga tú foto de perfil</label>
+                    <input type="file" name="user-profile-picture" id="user-image"  accept=".jpg, .png" />
+                </div>
+                <div class="fill-form">
+                    <diV class="user-name">
+                        <label for="id">Nombre:</label>
+                        <input type="text" name="user-name" placeholder="John" require id="name">
+                        <span class="feedback-message">Dato no valido, campo obligatorio.</span>
+                    </diV>
+                    <div class="user-last-name">
+                        <label for="last-name">Apellido:</label>
+                        <input type="text" name="user-last-name" placeholder="Dow" required id="last-name">
+                        <span class="feedback">Dato no valido, campo obligatorio.</span>
+                    </div>
+                    <div class="user-date-of-birth">
+                        <label for="date">Fecha de nacimiento:</label>
+                        <input type="date" name="user-date-of-birth" value="1987-01-25" required id="date" min="1900-01-01" max="2010-01-01">
+                        <span class="feedback">Dato no valido, campo obligatorio.</span>
+                    </div>
+                    <div class="user-email">
+                        <label for="email">Email:</label>
+                        <input type="email" name="user-email" placeholder="johndow@mail.com" required id="email">
+                        <span class="feedback">Dato no valido, campo obligatorio.</span>
+                    </div>
+                    <div class="user-password">
+                        <label for="password">Password:</label>
+                        <input type="password" name="user-password" placeholder="************" required id="password">
+                        <span class="feedback">Dato no valido, campo obligatorio.</span>
+                    </div>
+                    <div class="user-confirm-password">
+                        <label for="confirm-password">Confirmar contraseña:</label>
+                        <input type="password" name="user-confirm-password" placeholder="************" required id="confirm-password">
+                        <span class="feedback">Dato no valido, campo obligatorio.</span>
+                    </div>
+                    <div class="user-phone">
+                        <label for="phone">Telefono (opcional):</label>
+                        <input type="tel" name="user-phone" placeholder="+54 911 5678 1234" id="phone">
+                        <span class="feedback">Dato no valido.</span>
+                    </div>
+                </div>
+                <div class="submit-form">    
+                    <button type="submit">Confirmar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
