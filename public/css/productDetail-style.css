@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*PRODUCT-DETAIL*/
+
+main {
+    background-color: rgb(226, 224, 224);
+    padding: 40px 0 40px 0;
+}
+
+main .detail-container {
+    width: 90vw;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 0 auto;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+main .detail-container .detail-column-1 {
+    object-fit: contain;
+    width: 100%;
+}
+
+main .detail-column-1 .main-image {
+    width: 100%;
+}
+
+main .detail-column-1 .main-image img {
+    width: 100%;
+    padding: 30px 10px;
+}
+
+main .detail-column-1 .secondary-images {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+main .detail-column-1 .secondary-images img {
+    width: 20%;
+}
+
+.detail-column-1 .detail-footer {
+    padding: 20px;
+    font-size: 14px;
+    color: grey;
+}
+
+main .detail-container .detail-column-2 {
+    padding: 0 10px;
+}
+
+.detail-column-2 h2 {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.detail-column-2 h3 {
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.detail-column-2 .detail-description {
+    font-size: 12px;
+    padding: 10px 0 0 10px;
+}
+
+.detail-column-2 .detail-price {
+    margin-top: 10px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 2px;
+}
+
+.detail-column-2 .detail-add-cart {
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(51, 186, 51);
+    padding: 3px;
+    color:white;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.7s;
+}
+
+.detail-column-2 button:hover {
+    background-color: white;
+    color:rgb(51, 186, 51);
+    box-shadow: 0px 0px 20px rgb(100, 100, 100);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.detail-column-2 .detail-send-free {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.detail-send-free i {
+    color: rgb(51, 186, 51)
+}
+
+section.paid-options {
+    width: 90vw;
+    max-width: 700px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 10px auto;
+}
+
+section.paid-options img {
+    width: 100%;
+}
+
+/*MEDIA QUERY*/
+
+@media (min-width: 480px) {
+    
+    main .detail-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        max-width: 700px;
+        height: 380px;
+        padding-bottom: 0px;
+    }
+    
+    main .detail-container .detail-column-1 {
+        width: 50%;
+        height: 100%;
+    }
+    
+    main .detail-container .detail-column-2 {
+        width: 50%;
+        padding: 30px 10px;
+    }
+}
