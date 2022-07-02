@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+main {
+    background-color:  #ebebeb;
+    padding: 50px 0;
+}
+
 /* MAIN */
     /*FORM*/
     
@@ -20,6 +25,7 @@ div.register form {
     border: 3px solid black;
     width: 320px;
     margin: auto;
+    background-color: #fff;
 }
 
 main form .user-image {
@@ -35,6 +41,7 @@ main form .fill-form input {
     background-color: lightgrey;
     height: 25px;
     padding-left: 10px;
+    border-radius: 5px;
 }
 
 main form input:focus {
@@ -58,6 +65,18 @@ main form div span {
     color:red;
 }
 
+main form div .register-term {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+main form div .register-term input {
+    width: 25px;
+}
+
 main form .submit-form {
     text-align: right;
 }
@@ -68,9 +87,20 @@ main form .submit-form button {
     background-color: orangered;
     color: white;
     border: none;
-    border-radius: 6%;
+    border-radius: 6px;
+    margin-top: 30px;
 }
 
+main form .fill-form input:focus:invalid ~ .feedback::after {
+    color: red;
+    content: "⛔-Campo Invalido";
+}
+
+main form .fill-form input:focus:valid ~ .feedback::after {
+    color: green;
+    content: "✅";
+}
+ 
     /*MEDIA QUERY*/
 
 @media (min-width: 960px) {

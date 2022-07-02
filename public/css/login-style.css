@@ -74,3 +74,18 @@ section.login-container {
     color: orangered;
     text-decoration: none;
 }
+
+main form.login-form input:focus:invalid ~ .feedback::after {
+    display: block;
+    margin-top: 10px;
+    color: red;
+    content: "⛔-Campo Invalido";
+    font-weight: bold;
+}
+
+main form.login-form input:focus:valid ~ .feedback::after {
+    color: green;
+    content: "✅";
+    display: block;
+    margin-top: 10px;
+}

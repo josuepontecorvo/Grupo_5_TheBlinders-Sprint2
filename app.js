@@ -10,7 +10,8 @@ app.get('/register', (req, res) => res.sendFile(path.resolve(__dirname,'./views/
 app.get('/carrito', (req,res) => res.sendFile(path.resolve(__dirname,'views/product-cart.html')));
 app.get('/detalle', (req,res) => res.sendFile(path.resolve(__dirname,'views/productDetail.html')));
 app.get('/ingresar', (req,res) => res.sendFile(path.resolve(__dirname,'views/login.html')));
+app.get('/contacto', (req,res) => res.sendFile(path.resolve(__dirname,'views/contacto.html')));
 
-app.listen(port, () => console.log(`Listening on port ${port}!`));
+app.listen(process.env.PORT || port, () => console.log(`Listening on port ${port}!`));
 
 
