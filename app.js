@@ -11,6 +11,8 @@ app.get('/carrito', (req,res) => res.sendFile(path.resolve(__dirname,'views/prod
 app.get('/detalle', (req,res) => res.sendFile(path.resolve(__dirname,'views/productDetail.html')));
 app.get('/ingresar', (req,res) => res.sendFile(path.resolve(__dirname,'views/login.html')));
 app.get('/contacto', (req,res) => res.sendFile(path.resolve(__dirname,'views/contacto.html')));
+app.get('/ayuda', (req,res) => res.sendFile(path.resolve(__dirname,'views/ayuda.html')));
+app.get('/nosotros', (req,res) => res.sendFile(path.resolve(__dirname,'views/nosotros.html')));
 
 app.listen(process.env.PORT || port, () => console.log(`Listening on port ${port}!`));
 
