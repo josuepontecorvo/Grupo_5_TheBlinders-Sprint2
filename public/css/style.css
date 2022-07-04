@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*HEADER*/
@@ -82,10 +83,14 @@ div.burger-menu i {
 /*MAIN*/
     /*BANNER*/
 
-.container-slider {
+.container-slider,.container-slider-mobile {
     width: 100vw;
     position: relative;
     overflow: hidden;
+}
+
+.container-slider {
+    display: none;
 }
 
 .slider {
@@ -147,6 +152,11 @@ div.burger-menu i {
 }
     /*DESTACADOS*/
 
+.destacados a.detalle {
+    text-decoration: none;
+    color: black;
+}
+
 .destacados h2 {
     text-align: center;
     margin: 5px auto;
@@ -175,6 +185,7 @@ main .destacados article img {
 
 main .destacados article h3 {
     font-size: 15px;
+    font-family: sans-serif;
 }
 
 main .destacados-products-price {
@@ -298,14 +309,19 @@ footer {
 
 @media (min-width: 481px) {
 
+    /*HEADER*/
+
     .sign-in {
         display:block;
         order: 2;
         text-align: center;
         font-size: 25px;
         margin-right: 15px;
-        color: #fa4500;
         text-shadow: 0 0 5px #fff;
+    }
+
+    .sign-in a {
+        color: #fa4500;  
     }
 
     .search-bar {
@@ -342,6 +358,16 @@ footer {
         font-weight: bold;
     }
 
+    /*MAIN*/
+
+    .container-slider {
+        display:block;
+    } 
+
+    .container-slider-mobile {
+        display:none;
+    }
+
     .destacados {
         height: 1200px;
     }
@@ -349,6 +375,7 @@ footer {
     main .destacados-products {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
     main .destacados-products article {
@@ -365,6 +392,8 @@ footer {
 }
 
 @media (min-width: 960px) {
+
+    /*HEADER*/
 
     .sign-in {
         display:none;
@@ -398,6 +427,8 @@ footer {
         width: 30%;
     }
 
+    /*MAIN*/
+
     .destacados {
         height: 650px;
     }
@@ -413,6 +444,8 @@ footer {
         width: 22%;
         padding: 5px;
     }
+
+    /*FOOTER*/
 
     .top-footer-section-bicimundo, .top-footer-section-links, .top-footer-section-cuenta {
         display: block;
