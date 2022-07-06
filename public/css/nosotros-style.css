@@ -73,6 +73,110 @@ section.nosotros .nosotros-grupo {
     color: black;
 }
 
+footer {
+    border-top: 1px solid black;
+    margin: 10px 0;
+}
+
+.social-media h5 {
+    font-family: sans-serif;
+    font-size:25px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: normal;
+    padding: 20px 0 20px 0;
+    color:#555;
+}
+
+.social-media-icon {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.social-media-icon i {
+    color:#777;
+    margin: 10px;
+    padding: 5px;
+}
+
+.social-media-icon i:hover {
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;  
+}
+
+.social-media-icon i.fa-brands.fa-facebook:hover {
+    color:#3b5998;
+}
+
+.social-media-icon i.fa-brands.fa-twitter:hover {
+    color: #00acee;
+}
+
+.social-media-icon i.fa-brands.fa-instagram:hover {
+    color: #f14843;
+}
+
+.social-media-icon i.fa-brands.fa-youtube:hover {
+    color: #f00;
+}
+
+.top-footer {
+    /* background-color: #2c2c2c; */
+    background-image: linear-gradient(to bottom, #2c2c2c, rgb(75,75,75));
+    /* color: #fa4500; */
+    color: white;
+    padding: 10px;
+}
+
+.bottom-footer {
+    border-top: 1px solid grey;
+    margin: 10px;
+}
+
+.top-footer-section-bicimundo, .top-footer-section-links, .top-footer-section-cuenta {
+    display: none;
+}
+
+.top-footer-section-contacto {
+    text-align: center;
+}
+
+.top-footer h4 {
+    /* color:black; */
+    color: #fa4500;
+    /* text-shadow: 0 0 5px #fff; */
+}
+
+.top-footer-section-contacto ul {
+    margin-top: 5px;
+}
+
+.top-footer li {
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.top-footer li i {
+    margin-right: 3px;
+    color:black;
+    text-shadow: 0 0 5px #fff;
+}
+
+.copyright-1 {
+    font-size: 14px;
+}
+
+.copyright-2 {
+    color: rgb(45, 136, 226);
+    font-size: 12px;
+}
+
+.copyright-3 {
+    font-size: 12px;
+}
+
+
 @media (min-width: 960px) {
 
     .nosotros-header h2 {
