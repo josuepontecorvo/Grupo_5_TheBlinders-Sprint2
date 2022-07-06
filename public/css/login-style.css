@@ -279,8 +279,9 @@ footer {
 /*MEDIA QUERIES*/
 
 @media (min-width: 481px) {
-    main {
-        padding: 12vw 0;
+    
+    header .logo {
+        width: 20%;
     }
 
     .sign-in {
@@ -326,6 +327,10 @@ footer {
     .down-navbar li a:hover {
         font-weight: bold;
     }
+
+    main {
+        padding: 12vw 0;
+    }
 }
 
 @media (min-width: 960px) {
@@ -340,7 +345,7 @@ footer {
     
     .top-navbar {
         display: block;
-        width: 30%;
+        width: 31%;
     }
 
     .top-navbar ul {
@@ -358,12 +363,12 @@ footer {
     
     .search-bar {
         order:0;
-        width: 30%;
+        width: 31%;
         text-align: left;
     }
 
-    .logo {
-        width: 30%;
+    header .logo {
+        width: 15%;
     }
 
 

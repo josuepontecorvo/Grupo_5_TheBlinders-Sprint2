@@ -86,7 +86,7 @@ main {
     background-size: cover;
     background-position: top center;
     background-attachment: fixed;
-    padding: 20vw 0;
+    padding: 10vw 0;
 }
 
     /*REGISTER*/
@@ -299,6 +299,9 @@ footer {
 @media (min-width: 481px) {
 
     /*HEADER*/
+    header .logo {
+        width: 20%;
+    }
 
     .sign-in {
         display:block;
@@ -349,6 +352,10 @@ footer {
 }
 
 @media (min-width: 960px) {
+    main {
+        background-attachment: scroll;
+        padding: 5vw 0;
+    }
 
     /*HEADER*/
     .sign-in {
@@ -357,7 +364,7 @@ footer {
     
     .top-navbar {
         display: block;
-        width: 30%;
+        width: 31%;
     }
 
     .top-navbar ul {
@@ -375,18 +382,18 @@ footer {
     
     .search-bar {
         order:0;
-        width: 30%;
+        width: 31%;
         text-align: left;
     }
 
-    .logo {
-        width: 30%;
+    header .logo {
+        width: 15%;
     }
 
     /*REGISTER*/
 
     div.register {
-        width: 60vw;
+        width: 70vw;
     }
 
     div.register form {
