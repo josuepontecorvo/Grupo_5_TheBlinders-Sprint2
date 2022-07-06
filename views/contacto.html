@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/85f57872c4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/contacto-style.css">
     <title>BiciMundo-Contacto</title>
@@ -11,7 +14,7 @@
 <body>
     <header>
         <div class="top-header">
-            <form class="search-bar" method="GET" action="search">
+            <form class="search-bar" method="GET" action="/">
                 <button type="submit" class="search-button">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
@@ -31,6 +34,9 @@
                 <a href="/ingresar">
                     <i class="fa-solid fa-circle-user"></i>
                 </a>
+                <a href="/carrito">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
             </div>
         </div>
         <div class="down-header">
@@ -45,7 +51,20 @@
             </nav>
         </div>
         <div class="burger-menu">
-            <i class="fa-solid fa-bars"></i>
+            <nav class="navigation">
+                <label class="burger-menu1" for="burger"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" class="burger-check" id="burger">
+                <ul class="burger-options">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="/nosotros">Quienes somos</a></li>
+                    <li><a href="/contacto">Contacto</a></li>
+                    <li><a href="/ayuda">Ayuda</a></li>
+                    <li><a href="/register">Crear Cuenta</a></li>
+                    <li><a href="/ingresar">Iniciar Sesión</a></li>
+                    <li><a href="/carrito">Carrito<i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
