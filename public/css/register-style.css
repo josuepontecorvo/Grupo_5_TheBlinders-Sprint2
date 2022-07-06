@@ -82,100 +82,112 @@ div.burger-menu i {
 
 /* MAIN */
 main {
-    background-color: #ebeef1;
-    padding: 50px 0;
+    background-image: url('/images/Prueba1.webp');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    padding: 20vw 0;
 }
 
-    /*FORM*/
+    /*REGISTER*/
+
+    div.register {
+        width: 88vw;
+        margin: 0 auto;
+        padding: 40px 20px;  
+        background-color: rgba(80, 80, 80, 0.9);
+        color: white;
+        border-radius: 10px;
+    }
     
-div.register h2 {
-    text-align: center;
-    text-decoration: underline;
-    margin: 20px;
-    font-size: 20px;   
-    font-weight: normal; 
-    font-style: italic;
-}
+    div.register h2 {
+        text-align: center;
+        color: red;
+        border-bottom: 1.5px solid red;
+        margin-bottom: 30px;
+        padding-bottom: 3px;
+    }
 
-div.register form {
-    border: 3px solid black;
-    width: 320px;
-    margin: auto;
-    background-color: #fff;
-}
+    main form .user-image {
+        text-align: center;;
+    }
 
-main form .user-image {
-    text-align: center;;
-}
+    main form .user-image i {
+        font-size: 100px;
+    }
 
-main form .user-image i {
-    font-size: 100px;
-}
+    main form .fill-form input {
+        width: 100%;
+        background-color: lightgrey;
+        height: 25px;
+        padding-left: 10px;
+        border-radius: 5px;
+    }
 
-main form .fill-form input {
-    width: 100%;
-    background-color: lightgrey;
-    height: 25px;
-    padding-left: 10px;
-    border-radius: 5px;
-}
+    main form input:focus {
+        color: green;
+        box-shadow: 0px 0px 10px rgb(48, 190, 233);
+    }
 
-main form input:focus {
-    color: green;
-    box-shadow: 0px 0px 10px rgb(48, 190, 233);
-}
+    main form div {
+        margin: 10px;
+    }
 
-main form div {
-    margin: 10px;
-}
+    main form div label {
+        display: block;
+        margin-bottom: 5px;
+        font-style: italic;
+    }
 
-main form div label {
-    display: block;
-    margin-bottom: 5px;
-    font-style: italic;
-}
+    main form div span {
+        margin: 5px;
+        display: block;
+        color:red;
+    }
 
-main form div span {
-    margin: 5px;
-    display: block;
-    color:red;
-}
+    main form div .register-term {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 10px;
+    }
 
-main form div .register-term {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-top: 10px;
-}
+    main form div .register-term input {
+        width: 25px;
+    }
 
-main form div .register-term input {
-    width: 25px;
-}
+    main form .submit-form {
+        text-align: right;
+    }
 
-main form .submit-form {
-    text-align: right;
-}
+    main form .submit-form button {
+        font-size: 18px;
+        padding: 5px;
+        background-color: orangered;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        margin-top: 30px;
+        transition: all 0.5s;
+    }
+    main form .submit-form button:hover {
+        color: rgb(51, 186, 51);
+        background-color: white; 
+        font-size: 15px ;
+        text-align: center;
+        box-shadow: 0 0 20px black;
+    }
 
-main form .submit-form button {
-    font-size: 18px;
-    padding: 5px;
-    background-color: orangered;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    margin-top: 30px;
-}
+    main form .fill-form input:focus:invalid ~ .feedback::after {
+        color: red;
+        content: "⛔-Campo Invalido";
+    }
 
-main form .fill-form input:focus:invalid ~ .feedback::after {
-    color: red;
-    content: "⛔-Campo Invalido";
-}
-
-main form .fill-form input:focus:valid ~ .feedback::after {
-    color: green;
-    content: "✅";
-}
+    main form .fill-form input:focus:valid ~ .feedback::after {
+        color: green;
+        content: "✅";
+    }
 
 /*FOOTER*/
 
@@ -371,9 +383,14 @@ footer {
         width: 30%;
     }
 
-    /*FORM*/
+    /*REGISTER*/
+
+    div.register {
+        width: 60vw;
+    }
+
     div.register form {
-        width: 750px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap:wrap;
@@ -382,7 +399,7 @@ footer {
     }
 
     div.fill-form {
-        width: 320px;
+        width: 50%;
         height: 100%;
     }
 
@@ -395,6 +412,7 @@ footer {
     div.submit-form {
         order: 3;
         padding: 30px;
+        margin-right: 5%;
     }
 
     /*FOOTER*/

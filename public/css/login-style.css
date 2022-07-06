@@ -80,15 +80,17 @@ div.burger-menu i {
 }
 
 /*MAIN*/
-    /*LOGIN*/
-
+    
     main {
         /* background-image: url('/images/backgroundLogin.jpg'); */
         background-image: url('/images/Prueba1.webp');
         background-size: cover;
+        background-position: top center;
         padding: 20vw 0;
     }
-    
+
+    /*LOGIN*/
+
     section.login-container {
         width: 98vw;
         max-width: 300px;
@@ -126,11 +128,12 @@ div.burger-menu i {
     .login-form button {
         display: block;
         margin: 20px auto;
-        background-color: rgb(51, 186, 51);
-        border: none;
-        border-radius: 7px;
+        font-size: 18px;
         padding: 5px;
+        background-color: orangered;
         color: white;
+        border: none;
+        border-radius: 6px;
         transition: all 0.5s;
     }
     
