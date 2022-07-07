@@ -165,7 +165,7 @@ main {
 
     main form .fill-form input {
         width: 100%;
-        background-color: lightgrey;
+        background-color: white;
         height: 25px;
         padding-left: 10px;
         border-radius: 5px;
