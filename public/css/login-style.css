@@ -184,14 +184,6 @@ div.burger-menu .burger-options li {
         transition: all 0.5s;
     }
     
-    .login-form button:hover {
-        color: rgb(51, 186, 51);
-        background-color: white; 
-        font-size: 15px ;
-        text-align: center;
-        box-shadow: 0 0 20px black;
-    }
-    
     .login-container h3 {
         font-size: 15px;
         font-weight: 200;
@@ -388,9 +380,7 @@ footer {
 
 @media (min-width: 960px) {
 
-    main {
-        padding: 8vw 0;
-    }
+    /*HEADER*/
 
     .sign-in {
         display:none;
@@ -424,6 +414,21 @@ footer {
         width: 15%;
     }
 
+    /*MAIN*/
+
+    main {
+        padding: 8vw 0;
+    }
+
+    .login-form button:hover {
+        color: rgb(51, 186, 51);
+        background-color: white; 
+        font-size: 15px ;
+        text-align: center;
+        box-shadow: 0 0 20px black;
+    }
+
+    /*FOOTER*/
 
     .top-footer-section-bicimundo, .top-footer-section-links, .top-footer-section-cuenta {
         display: block;

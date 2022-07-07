@@ -161,6 +161,12 @@ main {
 
     main form .user-image i {
         font-size: 100px;
+        margin-bottom: 20px;
+    }
+
+    main form .user-image label:hover {
+        color: orangered;
+        cursor: pointer;
     }
 
     main form .fill-form input {
@@ -217,13 +223,6 @@ main {
         border-radius: 6px;
         margin-top: 30px;
         transition: all 0.5s;
-    }
-    main form .submit-form button:hover {
-        color: rgb(51, 186, 51);
-        background-color: white; 
-        font-size: 15px ;
-        text-align: center;
-        box-shadow: 0 0 20px black;
     }
 
     main form .fill-form input:focus:invalid ~ .feedback::after {
@@ -469,6 +468,14 @@ footer {
         order: 3;
         padding: 30px;
         margin-right: 5%;
+    }
+
+    main form .submit-form button:hover {
+        color: rgb(51, 186, 51);
+        background-color: white; 
+        font-size: 15px ;
+        text-align: center;
+        box-shadow: 0 0 20px black;
     }
 
     /*FOOTER*/
